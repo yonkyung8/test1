@@ -28,8 +28,8 @@ export default class Score {
     const y = 20 * this.scaleRatio;
 
     const fontSize = 20 * this.scaleRatio;
-    this.ctx.font = `${fontSize}px serif`;
-    this.ctx.fillStyle = "#525250";
+    this.ctx.font = `${fontSize}px courier new`;
+    this.ctx.fillStyle = "#55aebeff";
     const scoreX = this.canvas.width - 75 * this.scaleRatio;
     const highScoreX = scoreX - 125 * this.scaleRatio;
 
