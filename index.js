@@ -121,7 +121,7 @@ function getScaleRatio() {
 function showGameOver() {
   const fontSize = 70 * scaleRatio;
   ctx.font = `${fontSize}px Verdana`;
-  ctx.fillStyle = "grey";
+  ctx.fillStyle = "orange";
   const x = canvas.width / 4.5;
   const y = canvas.height / 2;
   ctx.fillText("GAME OVER", x, y);
@@ -149,9 +149,9 @@ function reset() {
 }
 
 function showStartGameText() {
-  const fontSize = 40 * scaleRatio;
-  ctx.font = `${fontSize}px Verdana`;
-  ctx.fillStyle = "grey";
+  const fontSize = 33.5 * scaleRatio;
+  ctx.font = `${fontSize}px Courier New`;
+  ctx.fillStyle = "Orange";
   const x = canvas.width / 14;
   const y = canvas.height / 2;
   ctx.fillText("Tap Screen or Press Space To Start", x, y);
